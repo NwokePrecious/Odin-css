@@ -4,6 +4,7 @@ body {
   padding: 0 20px;
 }
 
+/* SECTION 1*/
 #section-1 {
   background-color: #31363f;
   color: white;
@@ -92,38 +93,93 @@ button {
   height: 200px;
 }
 
+/* SECTION 2*/
 #section-2 {
   background-color: white;
   color: black;
   padding: 50px 0;
-  min-height: 200px; /* Ensures visibility */
+  min-height: 200px;
+}
+
+.section-2-container {
+  width: 960px;
+  margin: 0 auto;
 }
 
 .section-2-header {
-  font-weight: 500;
-  font-size: large;
+  font-weight: 700;
+  font-size: 18px;
   text-align: center;
   padding-bottom: 25px;
 }
 
-.info-content {
+.info-container {
   display: flex;
-  height: 50%;
-  width: 50%;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 10px;
   justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .info-img {
   border: 5px solid rgb(152, 114, 8);
-  height: 30%;
-  width: 15%;
+  height: 50%;
+  width: 50%;
   border-radius: 12px;
   margin-bottom: 0;
 }
 
 .info-text {
-  margin-top: 0;
+  margin-top: 5px;
   font-weight: 200;
-  font-size: small;
+  font-size: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+/* SECTION 3*/
+#section-3 {
+  background-color: rgb(241, 241, 241);
+  color: black;
+  padding: 50px 0;
+  min-height: 200px;
+}
+
+.section-3-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-weight: 200;
+  font-size: 22px;
+  text-align: left;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-weight: 500;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
 }
