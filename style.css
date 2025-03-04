@@ -1,0 +1,129 @@
+body {
+  font-family: "Poppins", serif;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#section-1 {
+  background-color: #31363f;
+  color: white;
+  padding: 25px 0;
+}
+
+.section-1-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex: 1 1 auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  justify-items: auto;
+}
+
+.nav-header {
+  font-weight: 500;
+  font-size: large;
+  margin-top: 13px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-size: 12px;
+  font-weight: none;
+  gap: 16px;
+  margin-top: none;
+  padding: 6px 6px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.hero-items-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-header {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  font-weight: 200;
+  font-size: small;
+  margin-bottom: 4px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4b70f5;
+  width: 120px;
+  height: inherit;
+  border-radius: 8px;
+}
+
+.hero-img {
+  width: 480px;
+  height: 200px;
+}
+
+#section-2 {
+  background-color: white;
+  color: black;
+  padding: 50px 0;
+  min-height: 200px; /* Ensures visibility */
+}
+
+.section-2-header {
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.info-content {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-img {
+  border: 5px solid rgb(152, 114, 8);
+  height: 30%;
+  width: 15%;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+
+.info-text {
+  margin-top: 0;
+  font-weight: 200;
+  font-size: small;
+}
