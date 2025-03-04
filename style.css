@@ -72,7 +72,7 @@ body {
   margin-bottom: 4px;
 }
 
-button {
+.signup-button {
   border: none;
   color: white;
   padding: 4px 4px;
@@ -81,7 +81,7 @@ button {
   font-size: 16px;
   margin: 8px 4px;
   cursor: pointer;
-  background-color: #4b70f5;
+  background-color: #2f58cd;
   width: 120px;
   border-radius: 8px;
 }
@@ -180,10 +180,70 @@ button {
   padding: 0;
 }
 
+/*SECTION 4*/
+#section-4 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 50px 0;
+  min-height: 200px;
+}
+
+.section-4-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.call-to-action-container {
+  display: flex;
+  background-color: #2f58cd;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 0 50px;
+}
+
+.call-to-action {
+  font-weight: 500;
+  font-size: bold;
+  text-align: left;
+  padding: 0 auto;
+  margin-bottom: 0;
+}
+
+.call-to-action-text {
+  font-weight: 200;
+  font-size: 12px;
+  text-align: left;
+  padding: 0 auto;
+  margin: 0;
+}
+.signup-button-2 {
+  border: 1px solid white;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  display: inline;
+  font-size: 16px;
+  margin: 8px 4px;
+  cursor: pointer;
+  background-color: #2f58cd;
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.call-to-action-left {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
 @media (max-width: 1024px) {
   .section-1-container,
   .section-2-container,
-  .section-3-container {
+  .section-3-container,
+  .section-4-container {
     width: 90%;
   }
 
@@ -221,6 +281,10 @@ button {
   }
 
   .author {
+    text-align: center;
+  }
+
+  .call-to-action-container {
     text-align: center;
   }
 }
