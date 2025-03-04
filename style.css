@@ -4,7 +4,7 @@ body {
   padding: 0 20px;
 }
 
-/* SECTION 1*/
+/*SECTION 1*/
 #section-1 {
   background-color: #31363f;
   color: white;
@@ -34,15 +34,15 @@ body {
   font-size: large;
   margin-top: 13px;
 }
+
 .links {
   display: flex;
   justify-content: center;
   justify-items: center;
   font-size: 12px;
-  font-weight: none;
   gap: 16px;
-  margin-top: none;
   padding: 6px 6px;
+  cursor: pointer;
 }
 
 .hero-container {
@@ -77,14 +77,12 @@ button {
   color: white;
   padding: 4px 4px;
   text-align: center;
-  text-decoration: none;
   display: inline;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 8px 4px;
   cursor: pointer;
   background-color: #4b70f5;
   width: 120px;
-  height: inherit;
   border-radius: 8px;
 }
 
@@ -93,7 +91,7 @@ button {
   height: 200px;
 }
 
-/* SECTION 2*/
+/*SECTION 2*/
 #section-2 {
   background-color: white;
   color: black;
@@ -119,17 +117,16 @@ button {
   gap: 10px;
   justify-content: center;
   width: auto;
-  height: auto;
   margin: 0 auto;
   padding: 0;
 }
+
 .info-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: auto;
-  height: auto;
   margin: 0 auto;
   padding: 0;
 }
@@ -144,13 +141,13 @@ button {
 
 .info-text {
   margin-top: 5px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 10px;
   width: 50%;
   text-align: center;
 }
 
-/* SECTION 3*/
+/*SECTION 3*/
 #section-3 {
   background-color: rgb(241, 241, 241);
   color: black;
@@ -179,7 +176,78 @@ button {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: auto;
   margin: 0 auto;
   padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .section-1-container,
+  .section-2-container,
+  .section-3-container {
+    width: 90%;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-header {
+    text-align: center;
+  }
+
+  .button {
+    align-items: center;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .info-text {
+    width: 80%;
+  }
+
+  .quote {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .author {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info-img {
+    width: 50%;
+  }
+
+  .info-text {
+    width: 100%;
+  }
 }
